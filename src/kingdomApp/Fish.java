@@ -7,16 +7,16 @@ public class Fish extends Animals {
 
     @Override
     public void move() {
-        System.out.println("just swimmin");
+        return "swim";
     }
 
     @Override
     public void breathe() {
-        System.out.println("these gills bussin");
+        return "gills";
     }
 
     @Override
     public void reproduce() {
-        System.out.println("poppin out some sushi");
+        return "eggs";
     }
 }

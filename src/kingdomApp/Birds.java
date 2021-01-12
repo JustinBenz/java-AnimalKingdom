@@ -6,17 +6,17 @@ public class Birds extends Animals {
     }
 
     @Override
-    public void breathe() {
-        System.out.println("Usin our Lungs");
+    public String breathe() {
+        return "lungs";
     }
 
     @Override
-    public void move(){
-        System.out.println("Soarin, Flyin, there's not a star in heaven that we cant reach");
+    public String move(){
+       return "fly";
     }
 
     @Override
-    public void reproduce() {
-        System.out.println("Poppin out some eggs");
+    public String reproduce() {
+        return "eggs";
     }
 }

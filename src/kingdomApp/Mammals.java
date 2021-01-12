@@ -7,16 +7,16 @@ public class Mammals extends Animals {
 
     @Override
     public void breathe() {
-        System.out.println("Usin our lungs");
+        return "lungs";
     }
 
     @Override
     public void move() {
-        System.out.println("AY IM WALKIN HERE");
+        return "walk";
     }
 
     @Override
     public void reproduce() {
-        System.out.println("A new animal popped out!");
+        return "livebirths";
     }
 }

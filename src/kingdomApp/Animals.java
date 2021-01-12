@@ -36,7 +36,8 @@ public abstract class Animals {
     protected void eat() {
         System.out.println("Nom Nom Nom");
     }
-    protected abstract void move();
-    protected abstract void breathe();
-    protected abstract void reproduce();
+
+    protected abstract String move();
+    protected abstract String breathe();
+    protected abstract String reproduce();
 }
